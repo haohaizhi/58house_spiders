@@ -32,6 +32,10 @@ git clone https://github.com/haohaizhi/58house_spiders.git
 # 若想进行更准确的筛选，则需要添加其他参数，具体需要参考58同城
 url = "https://nj.58.com/pinpaigongyu/pn/{page}/?minprice=2000_4000"
 ```
+* 博客地址
+
+[https://blog.mehoon.com/269.html](https://blog.mehoon.com/269.html)
+
 * 程序运行后
 
 ![](images/1.png)
