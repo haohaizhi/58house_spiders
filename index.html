@@ -8,9 +8,23 @@
     <title>毕业生租房</title>
     <link rel="stylesheet" href="http://cache.amap.com/lbs/static/main1119.css" />
     <link rel="stylesheet" href="http://cache.amap.com/lbs/static/jquery.range.css" />
+	<!--加载AMap的CSS样式、jQuery库、AMap的JavaScript库  -->
+    <script type="text/javascript">
+        window._AMapSecurityConfig = {
+            securityJsCode: '6461de9df933c0a3025879ac9e1ad1e6',
+        }
+    </script>
+    <script
+        src="https://webapi.amap.com/maps?v=1.4.15&key=e0251f978779ea9c6bcc9a4e3747fb7e&plugin=AMap.ArrivalRange,AMap.Scale,AMap.Geocoder,AMap.Transfer,AMap.Driving,AMap.Autocomplete"></script>
+	
+	<!-- 2017之前版本使用key
+	<script src="https://webapi.amap.com/maps?v=1.3&key=2a45936010b56d521868bf463f4a0598&plugin=AMap.ArrivalRange,AMap.Scale,AMap.Geocoder,AMap.Transfer,AMap.Autocomplete"></script>
+	-->
+	
     <script src="http://cache.amap.com/lbs/static/jquery-1.9.1.js"></script>
     <script src="http://cache.amap.com/lbs/static/es5.min.js"></script>
-    <script src="http://webapi.amap.com/maps?v=1.3&key=2a45936010b56d521868bf463f4a0598&plugin=AMap.ArrivalRange,AMap.Scale,AMap.Geocoder,AMap.Transfer,AMap.Autocomplete"></script>
+    <script src="http://cdn.bootcdn.net/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="http://cdn.bootcdn.net/ajax/libs/jquery-csv/1.0.11/jquery.csv.min.js"></script>
     <script src="http://cache.amap.com/lbs/static/jquery.range.js"></script>
     <style>
     .control-panel {
